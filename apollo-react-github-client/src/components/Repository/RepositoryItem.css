@@ -1,0 +1,13 @@
+.RepositoryItem {
+  border: 3px solid tomato;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.RepositoryItem .controls {
+  display: flex;
+}
+
+.RepositoryItem .controls .ButtonWithCounter {
+  margin-right: 1rem;
+}

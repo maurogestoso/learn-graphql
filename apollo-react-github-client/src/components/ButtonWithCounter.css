@@ -1,0 +1,30 @@
+.ButtonWithCounter {
+  display: flex;
+  height: 1.5rem;
+}
+
+.ButtonWithCounter button {
+  border: 1px solid black;
+  font-size: 0.8rem;
+}
+
+.ButtonWithCounter button:active {
+  background-color: darkgray;
+}
+
+.ButtonWithCounter button:hover {
+  cursor: pointer;
+}
+
+.ButtonWithCounter div {
+  display: flex;
+  align-items: center;
+  padding: 0 0.3rem;
+  border: 1px solid black;
+  border-left: 0px;
+  font-size: 0.8rem;
+}
+
+.ButtonWithCounter div span {
+  line-height: 1.5rem;
+}
